@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -212,6 +212,31 @@
 <text x="0" y="7.1162" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-7.1162" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="PDIP-8" urn="urn:adsk.eagle:footprint:4829248/1" locally_modified="yes">
+<description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
+<circle x="-3.5928" y="2.6997" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.7" y1="2.4497" x2="-2.7" y2="2.675" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="21"/>
+<wire x1="2.7" y1="2.675" x2="2.7" y2="2.4497" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="-2.4497" x2="-2.7" y2="-2.675" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="-2.675" x2="2.7" y2="-2.675" width="0.12" layer="21"/>
+<wire x1="2.7" y1="-2.675" x2="2.7" y2="-2.4497" width="0.12" layer="21"/>
+<wire x1="2.7" y1="-2.675" x2="-2.7" y2="-2.675" width="0.12" layer="51"/>
+<wire x1="-2.7" y1="-2.675" x2="-2.7" y2="2.675" width="0.12" layer="51"/>
+<wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="51"/>
+<wire x1="2.7" y1="2.675" x2="2.7" y2="-2.675" width="0.12" layer="51"/>
+<smd name="1" x="-3.6284" y="1.905" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="2" x="-3.6284" y="0.635" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="3" x="-3.6284" y="-0.635" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="4" x="-3.6284" y="-1.905" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="5" x="3.6284" y="-1.905" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="6" x="3.6284" y="-0.635" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="7" x="3.6284" y="0.635" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="8" x="3.6284" y="1.905" dx="1.7143" dy="0.5815" layer="1"/>
+<text x="0" y="3.5847" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.31" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFP80P900X900X120-32" urn="urn:adsk.eagle:package:2766544/1" locally_modified="yes" type="model">
@@ -233,6 +258,13 @@
 &lt;p&gt;44-pin QFP package with 0.8 mm pitch, 12 mm lead span1 X 12 mm lead span2 with body size 10 X 10 X 1.2 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="TQFP44"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P798X216-8" urn="urn:adsk.eagle:package:4829245/1" locally_modified="yes" type="model">
+<description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="PDIP-8"/>
 </packageinstances>
 </package3d>
 </packages3d>
